@@ -1,0 +1,22 @@
+:root{
+    --background-color: rgb(240, 240, 240);
+}
+
+html{
+    background-color: var(--background-color);
+}
+
+.raised{
+    box-shadow: -4px -5px 10px 4px rgba(255, 255, 255, 0.4), 4px 5px 10px 4px rgba(60, 60, 60, 0.3);
+}
+
+.recessed{
+    box-shadow: inset 4px 5px 12px 1px rgba(40, 40, 40, 0.2), inset -4px -5px 10px 4px rgba(255, 255, 255, 0.4);
+}
+
+.raised-text{
+    font-size: 72px;
+    width: 2em;
+    color: var(--background-color);
+    text-shadow: 2px 2px 4px rgba(60, 60, 60, 0.2), -2px -2px 4px rgba(255, 255, 255, 0.7);
+}
